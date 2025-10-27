@@ -1,0 +1,48 @@
+<template>
+  <div>
+    <main>
+      <div class="container py-4">
+        <div class="container text-center">
+          <div class="row g-3">
+            <div class="col col-4">
+              <AppCard></AppCard>
+              <!-- <app-card></app-card> -->
+            </div>
+            <div class="col col-4">
+              <AppCard></AppCard>
+            </div>
+            <div class="col col-4">
+              <AppCard></AppCard>
+            </div>
+            <div class="col col-4">
+              <AppCard></AppCard>
+            </div>
+            <div class="col col-4">
+              <AppCard></AppCard>
+            </div>
+            <div class="col col-4">
+              <AppCard></AppCard>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </div>
+</template>
+
+<script>
+import App from '@/App.vue';
+import AppCard from './AppCard.vue';
+export default {
+  components: {
+    AppCard,
+  },
+  setup() {
+
+
+    return {}
+  }
+}
+</script>
+
+<style lang="scss" scoped></style>
